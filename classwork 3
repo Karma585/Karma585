@@ -4,3 +4,14 @@ limit = int(input("Enter the limit up to which you want multiplication to be gen
 print(f"(Multiplication table for {number} up to the {limit}: ")
 for i in range(1, limit + 1):
         print(f"{number} x {i} = {number * i}")
+
+height = int(input("Enter the height of the triangle: "))
+
+i = 1
+while i <= height:
+        result = "*" * i
+        print(result)
+        i += 1
+
+
+
